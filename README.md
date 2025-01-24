@@ -1,4 +1,4 @@
-# projectwebkesehatan
+# projectwebmakanan
 Project Akhir Web
 Afif Muhammad Kahfi(0602401)
 Muhammad Ridho Allam(06024002)
