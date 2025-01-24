@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    <!--
+        TUGAS WEB DESIGN form pemesanan masakan padang
+        Kategori Web masakan padang
+
+    -->
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Tugas Web Desain Membuat Form Pendaftaran dengan kategori Makanan. Form Pendaftaran pemesanan Makanan! ">
+        <meta name="author" content="Raihan Syahbani">
+        <title>PENDAFTARAN PEMESANAN MAKANAN WEB DESAIN</title>
+        <link href="form.css" rel="stylesheet" type="text/css">
+
+    </head>
+
+    <!--BADAN-->    
+    <body>
+
+        <script scr="script.js"></script>
+        <br><br><br><br><br>
+        <div class="container">
+            <div class="tag-atas">
+                <h1>Form Pemesanan Makanan</h1>
+            </div>
+            <div class="pendaftaran">
+                <br>
+                <form onsubmit="return check();">
+                    <label>Nama Lengkap</label>
+                    <input type="text" id="nama" placeholder="" class="input">
+                    <div id="id_nama"></div>
+
+                    <label>Menu Minuman</label>
+                    <input type="text" id="Minuman" placeholder="" class="input">
+                    <div id="id_identitas"></div>
+
+                    <label>Jumlah Pemesanan minuman</label>
+                    <input type="number" id="notelp" class="input">
+                    <div id="id_notelp"></div>
+
+                    <label>No Telphone</label>
+                    <input type="number" id="usia" class="input">
+                    <div id="id_usia"></div>
+
+                    <label>jumlah pemesanan</label>
+                    <input type="number" id="tinggi" class="input">
+                    <div id="id_tinggi"></div>
+
+                    <label>Jenis Alamat</label>
+                    <select name="Jenis Alamat" id="Alamat" class="input">
+                        <option value="jenis Alamat"> </option>
+                        <option value="Laki-Laki">Alamat Rumah</option>
+                        <option value="Perempuan">Alamat Kantor</option>
+                    </select>
+                    <div id="id_kelamin"></div>
+                    <label>tanggal pemesanan</label>
+                    <input type="date" id="Tanggal Pemesanan" class="input">
+                    <div id="id_Tanggal Pemesanan"></div>
+
+                    <label>menu</label>
+                    <select name="" id="Menu" class="input">
+                        <option value="Rendang">Rendang</option>
+                        <option value="Tunjang">Tunjang</option>
+                        <option value="Gulai Ikan Patin">Gulai Ikan Patin</option>
+                        <option value="dendeng Balado">Dendeng Balado</option>
+                        <option value="Ayam Bakar">Ayam Bakar</option>
+                        <option value="Lontong Sayur">Lontong Sayur</option>
+                    </select>
+                    <div id="id_Menu"></div>
+
+                    <label>Alamat Rumah</label>
+                    <input type="text" id="alamat" class="input">
+                    <div id="id_alamat"></div>
+
+                    <button onclick="showPopup()">Daftar</button>
+                    <div id="output" hidden></div>
+                    <button type="reset">Reset</button>
+                </form>
+                
+                    <!-- Popup -->
+                    <div id="popup">
+                        <div id="popup-content">
+                            <p id="OutputData"></p>
+                            <button onclick="closePopup()">Tutup</button>
+                        </div>
+                    </div>
+                    
+                <br><br><br><br><br><br><br><br><br><br>
+            </div>
+        </div>
+   </body>
+</html>
